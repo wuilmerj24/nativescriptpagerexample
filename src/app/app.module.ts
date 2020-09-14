@@ -11,14 +11,15 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
-
+import { PagerModule } from "nativescript-pager/angular";
 @NgModule({
     bootstrap: [
         AppComponent
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        PagerModule,
     ],
     declarations: [
         AppComponent,
